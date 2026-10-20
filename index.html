@@ -28,6 +28,11 @@
     .content-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:1.5rem}.panel{padding:1.35rem}.skills{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1rem}.cards{display:grid;gap:1rem;margin-top:1rem}.card{padding:1rem 1.1rem;border-radius:1rem;border:1px solid var(--border);background:var(--surface)} .card h4{font-size:1.03rem;margin-bottom:.35rem}.card .date{font-size:.92rem;color:var(--muted);margin-bottom:.5rem}
     .cert-grid,.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.mini{padding:1rem;border:1px solid var(--border);border-radius:1rem;background:var(--surface)}
     .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.stat{padding:1.2rem 1.2rem 1.1rem;border:1px solid var(--border);border-radius:1rem;background:var(--surface)}.stat b{display:block;font-family:var(--font-display);font-weight:500;font-size:clamp(2rem,1.6rem + 1.4vw,2.8rem);line-height:1;color:var(--primary);margin-bottom:.45rem}.stat span{font-size:.95rem;color:var(--muted)}.project-grid .mini strong{display:block;font-size:1.05rem;margin-bottom:.4rem}.project-grid .mini p{margin-bottom:.6rem}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem 1.5rem;margin-top:1.2rem}.facts div{font-size:.98rem}.facts b{display:block;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+    .content-grid{align-items:start}.content-grid>.panel{position:sticky;top:6.5rem}
+    .section-copy p{color:var(--muted);font-size:1.02rem}.card p{color:var(--muted);font-size:.98rem;line-height:1.6}.card .date{font-size:.86rem;letter-spacing:.02em}
+    .mini{display:flex;flex-direction:column}.project-grid .mini p.muted{font-size:.98rem;line-height:1.6}.project-grid .mini .skills:last-child{margin-top:auto;padding-top:.6rem}
+    .btn-sm{min-height:38px;padding:.5rem 1rem;font-size:.92rem}.cert-grid .mini{font-weight:500}
+    .panel h3{font-size:1.6rem;margin-bottom:.2rem}
     footer{padding:3rem 0 4rem;border-top:1px solid var(--border)} .footer-grid{display:grid;grid-template-columns:1fr auto;gap:1rem;align-items:center}
     @media (max-width:1024px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-grid,.venn-grid,.content-grid{grid-template-columns:1fr}.hero-side{max-width:520px}.section-top{align-items:start;flex-direction:column}}
     @media (max-width:760px){.stats,.facts{grid-template-columns:1fr}.nav-wrap{flex-direction:column;align-items:flex-start}nav ul{gap:.7rem}.footer-grid,.cert-grid,.project-grid{grid-template-columns:1fr}.bubble{font-size:.92rem}.bubble small{display:none}.tooltip{display:none}.venn-wrap{max-width:360px}}
@@ -133,16 +138,16 @@
             <div class="eyebrow block-lang" data-lang="fr">Produit</div>
             <h2 class="block-lang show" data-lang="en">Product thinking grounded in user, process, and delivery reality.</h2>
             <h2 class="block-lang" data-lang="fr">Une réflexion produit ancrée dans l’usage, les processus et la réalité de l’exécution.</h2>
-            <p class="block-lang show" data-lang="en">This section highlights product ownership, roadmap execution, feature definition, backlog prioritization, customer conversations, multilingual functionality, and go-to-market enablement. It reflects roles where business needs had to be translated into structured product decisions.</p>
-            <p class="block-lang" data-lang="fr">Cette section met en avant le pilotage produit, l’exécution de roadmap, la définition de fonctionnalités, la priorisation du backlog, les échanges clients, les fonctions multilingues et l’accompagnement go-to-market. Elle reflète les rôles dans lesquels les besoins métier devaient être traduits en décisions produit structurées.</p>
+            <p class="block-lang show" data-lang="en">Eight years owning products end to end: discovery with customers, roadmap and backlog, sprint-ready stories, releases, and the presales and training that drive adoption.</p>
+            <p class="block-lang" data-lang="fr">Huit ans de pilotage produit de bout en bout : découverte avec les clients, roadmap et backlog, user stories prêtes pour le sprint, releases, avant-vente et formation pour l’adoption.</p>
           </div>
           <div class="skills"><span class="pill">Product Owner</span><span class="pill">Roadmap</span><span class="pill">Backlog</span><span class="pill">JIRA</span><span class="pill">Customer value</span></div>
         </div>
         <div class="content-grid">
           <div class="cards">
             <article class="card"><h4><span data-lang="en" class="show">Boston Harbor Consulting · Product Manager</span><span data-lang="fr">Boston Harbor Consulting · Product Manager</span></h4><div class="date"><span data-lang="en" class="show">India · 2023–2024</span><span data-lang="fr">Inde · 2023–2024</span></div><p><span data-lang="en" class="show">Product Owner for Quickly, a low-code / no-code PaaS for enterprise SaaS, with an 11-person Scrum team. Took the product from ~10% complete to MVP-ready in 8 months, delivering 20+ feature sets including a subscription and payment pilot, multilingual support and CSRF/XSS protection.</span><span data-lang="fr">Product Owner de Quickly, PaaS low-code / no-code pour SaaS d’entreprise, avec une équipe Scrum de 11 personnes. Produit mené de ~10 % à un MVP prêt en 8 mois, avec 20+ ensembles de fonctionnalités : pilote abonnement et paiement, multilingue, protection CSRF/XSS.</span></p></article>
-            <article class="card"><h4><span data-lang="en" class="show">Dimsoln Technology · Product Manager / Product Owner / Project Manager</span><span data-lang="fr">Dimsoln Technology · Product Manager / Product Owner / Project Manager</span></h4><div class="date"><span data-lang="en" class="show">India · 2019–2023</span><span data-lang="fr">Inde · 2019–2023</span></div><p><span data-lang="en" class="show">Owned the Foundation Design Suite from inception: 8 releases, 70+ features, 200+ enterprise clients and 4,000+ active users. Led a ~15-person cross-functional team reporting to the CEO and CTO, and grew APAC sales +300% (2021) and +125% (2022) through subscription licensing.</span><span data-lang="fr">Pilotage de la Foundation Design Suite depuis sa création : 8 versions, 70+ fonctionnalités, 200+ clients grands comptes et 4 000+ utilisateurs actifs. Équipe transverse de ~15 personnes rattachée au CEO et au CTO ; ventes APAC +300 % (2021) et +125 % (2022) grâce aux licences par abonnement.</span></p></article>
-            <article class="card"><h4><span data-lang="en" class="show">Customer-facing product enablement</span><span data-lang="fr">Activation produit orientée client</span></h4><div class="date">APAC / MENA</div><p><span data-lang="en" class="show">Technical presales, demos and training workshops for enterprise, SMB and education customers: 98%+ sale conversion and 4,500+ users trained. Built a global support system handling 300+ tickets per release at ~3-day resolution.</span><span data-lang="fr">Avant-vente technique, démonstrations et ateliers de formation pour clients grands comptes, PME et éducation : taux de conversion de 98 %+ et 4 500+ utilisateurs formés. Système de support mondial : 300+ tickets par version, résolution en ~3 jours.</span></p></article>
+            <article class="card"><h4><span data-lang="en" class="show">Dimsoln Technology · Lead Engineer – Products (Product Manager / Product Owner)</span><span data-lang="fr">Dimsoln Technology · Lead Engineer – Produits (Chef de Produit / Product Owner)</span></h4><div class="date"><span data-lang="en" class="show">India · 2019–2023</span><span data-lang="fr">Inde · 2019–2023</span></div><p><span data-lang="en" class="show">Owned the Foundation Design Suite from inception: 8 releases, 70+ features, 200+ enterprise clients and 4,000+ active users. Led a ~15-person cross-functional team reporting to the CEO and CTO, and grew APAC sales +300% (2021) and +125% (2022) through subscription licensing.</span><span data-lang="fr">Pilotage de la Foundation Design Suite depuis sa création : 8 versions, 70+ fonctionnalités, 200+ clients grands comptes et 4 000+ utilisateurs actifs. Équipe transverse de ~15 personnes rattachée au CEO et au CTO ; ventes APAC +300 % (2021) et +125 % (2022) grâce aux licences par abonnement.</span></p></article>
+            <article class="card"><h4><span data-lang="en" class="show">Customer-facing product enablement</span><span data-lang="fr">Activation produit orientée client</span></h4><div class="date"><span data-lang="en" class="show">Dimsoln · APAC / MENA · 2019–2023</span><span data-lang="fr">Dimsoln · APAC / MENA · 2019–2023</span></div><p><span data-lang="en" class="show">Technical presales, demos and training workshops for enterprise, SMB and education customers: 98%+ sale conversion and 4,500+ users trained. Built a global support system handling 300+ tickets per release at ~3-day resolution.</span><span data-lang="fr">Avant-vente technique, démonstrations et ateliers de formation pour clients grands comptes, PME et éducation : taux de conversion de 98 %+ et 4 500+ utilisateurs formés. Système de support mondial : 300+ tickets par version, résolution en ~3 jours.</span></p></article>
           </div>
           <div class="surface panel">
             <h3 class="block-lang show" data-lang="en">Product strengths</h3>
@@ -161,8 +166,8 @@
             <div class="eyebrow block-lang" data-lang="fr">Management</div>
             <h2 class="block-lang show" data-lang="en">Execution, coordination, and operational clarity.</h2>
             <h2 class="block-lang" data-lang="fr">Exécution, coordination et clarté opérationnelle.</h2>
-            <p class="block-lang show" data-lang="en">This section focuses on programme and project execution, PMO-style reporting, operational design, stakeholder coordination, and performance-oriented decision support. It reflects roles where structured delivery, process discipline, and measurable follow-through mattered most.</p>
-            <p class="block-lang" data-lang="fr">Cette section met en avant l’exécution de programmes et de projets, le reporting de type PMO, la structuration des opérations, la coordination des parties prenantes et l’aide à la décision orientée performance. Elle reflète les fonctions où la rigueur d’exécution, la structuration des processus et les résultats mesurables ont été essentiels.</p>
+            <p class="block-lang show" data-lang="en">PMO reporting and forecasting on a US$13B+ programme, structured delivery with PMP and Agile methods, and data-driven decision support from Excel automation to research data pipelines.</p>
+            <p class="block-lang" data-lang="fr">Reporting et prévisions PMO sur un programme de 13 Md$+, exécution structurée avec les méthodes PMP et Agile, et aide à la décision par la donnée, de l’automatisation Excel aux pipelines de données de recherche.</p>
           </div>
           <div class="skills"><span class="pill">PMP</span><span class="pill">PMO</span><span class="pill">Stakeholder management</span><span class="pill">Reporting</span><span class="pill">Operations analytics</span></div>
         </div>
@@ -189,8 +194,8 @@
             <div class="eyebrow block-lang" data-lang="fr">Ingénierie</div>
             <h2 class="block-lang show" data-lang="en">Technical depth across structures, energy, analysis, and systems.</h2>
             <h2 class="block-lang" data-lang="fr">Une profondeur technique à travers les structures, l’énergie, l’analyse et les systèmes.</h2>
-            <p class="block-lang show" data-lang="en">This section reflects the engineering foundation behind later management and product roles: structural design, renewable energy projects, technical analysis, geospatial and climate data work, testing, and solution-oriented engineering execution.</p>
-            <p class="block-lang" data-lang="fr">Cette section présente la base d’ingénierie qui soutient les fonctions plus récentes en management et en produit : conception structurelle, projets d’énergie renouvelable, analyse technique, travail sur données géospatiales et climatiques, tests et exécution orientée solution.</p>
+            <p class="block-lang show" data-lang="en">The engineering foundation behind my product work: hydropower projects up to 1,200 MW, metro and tunnel structures, and AI/ML image processing. It lets me speak the language of engineering teams and technical buyers.</p>
+            <p class="block-lang" data-lang="fr">La base d’ingénierie derrière mon travail produit : projets hydroélectriques jusqu’à 1 200 MW, structures de métro et de tunnel, traitement d’image IA/ML. Elle me permet de parler le langage des équipes techniques et des acheteurs industriels.</p>
           </div>
           <div class="skills"><span class="pill">Structural engineering</span><span class="pill">Renewable energy</span><span class="pill">QGIS</span><span class="pill">R</span><span class="pill">Testing</span></div>
         </div>
@@ -235,19 +240,17 @@
           <div class="mini">
             <strong><span data-lang="en" class="show">POS / CRM / ERP software for European users</span><span data-lang="fr">Logiciel POS / CRM / ERP pour utilisateurs européens</span></strong>
             <p class="muted"><span data-lang="en" class="show">Offline-friendly POS software used for 8 months with 7,500+ transactions, built for low-computer-skill users and progressively enhanced with CRM and ERP-style workflows. Features include BOM creation, invoice creation, three pricing logics, stock code creation, report extraction, payment method updates, and daily/monthly sales dashboards.</span><span data-lang="fr">Logiciel POS utilisable hors ligne, utilisé pendant 8 mois avec plus de 7 500 transactions, conçu pour des utilisateurs peu familiers avec l’informatique et enrichi progressivement avec des fonctions de type CRM et ERP. Fonctionnalités : création de BOM, création de factures, trois logiques de prix, création de nouveaux codes stock, extraction de rapports, mise à jour des moyens de paiement et tableaux de bord des ventes quotidiens / mensuels.</span></p>
-            <p class="muted"><span data-lang="en" class="show">More details and walkthrough available during a call.</span><span data-lang="fr">Plus de détails et démonstration disponibles pendant un appel.</span></p>
             <div class="skills">
-              <a class="btn btn-secondary" href="projects/pos/" target="_self"><span data-lang="en" class="show">Project page</span><span data-lang="fr">Page projet</span></a>
-              <a class="btn btn-secondary" href="projects/pos/pos-demo.mp4" target="_blank" rel="noopener noreferrer"><span data-lang="en" class="show">Video</span><span data-lang="fr">Vidéo</span></a>
+              <a class="btn btn-secondary btn-sm" href="projects/pos/" target="_self"><span data-lang="en" class="show">Project page</span><span data-lang="fr">Page projet</span></a>
+              <a class="btn btn-secondary btn-sm" href="projects/pos/pos-demo.mp4" target="_blank" rel="noopener noreferrer"><span data-lang="en" class="show">Video</span><span data-lang="fr">Vidéo</span></a>
             </div>
           </div>
           <div class="mini">
-            <strong><span data-lang="en" class="show">Climate data extraction in RStudio</span><span data-lang="fr">Extraction de données climatiques sous RStudio</span></strong>
+            <strong><span data-lang="en" class="show">Climate-data extraction, ~110× faster</span><span data-lang="fr">Extraction de données climatiques, ~110× plus rapide</span></strong>
             <p class="muted"><span data-lang="en" class="show">Extracted climate data for 5,500+ locations across France, covering daily minimum temperature, maximum temperature, and precipitation from 1950 to 2024. The data supported business adaptation decisions related to climate change and was validated against QGIS for correctness.</span><span data-lang="fr">Extraction de données climatiques pour plus de 5 500 localisations en France, couvrant les températures minimales, maximales et les précipitations quotidiennes de 1950 à 2024. Les données ont servi à soutenir des décisions d’adaptation des activités face au changement climatique et ont été validées dans QGIS.</span></p>
-            <p class="muted"><span data-lang="en" class="show">Supporting manual and workflow notes available on request.</span><span data-lang="fr">Manuel de support et notes de workflow disponibles sur demande.</span></p>
             <div class="skills">
-              <a class="btn btn-secondary" href="projects/climate/manual.pdf" target="_blank" rel="noopener noreferrer"><span data-lang="en" class="show">User manual</span><span data-lang="fr">Manuel utilisateur</span></a>
-              <a class="btn btn-secondary" href="projects/climate/" target="_self"><span data-lang="en" class="show">Project page</span><span data-lang="fr">Page projet</span></a>
+              <a class="btn btn-secondary btn-sm" href="projects/climate/manual.pdf" target="_blank" rel="noopener noreferrer"><span data-lang="en" class="show">User manual</span><span data-lang="fr">Manuel utilisateur</span></a>
+              <a class="btn btn-secondary btn-sm" href="projects/climate/" target="_self"><span data-lang="en" class="show">Project page</span><span data-lang="fr">Page projet</span></a>
             </div>
           </div>
         </div>
@@ -262,16 +265,16 @@
             <div class="eyebrow block-lang" data-lang="fr">Développement professionnel</div>
             <h2 class="block-lang show" data-lang="en">Certifications and learning</h2>
             <h2 class="block-lang" data-lang="fr">Certifications et formations</h2>
-            <p class="block-lang show" data-lang="en">Selected certifications that support management, product, agile delivery, quality, and sustainability positioning.</p>
-            <p class="block-lang" data-lang="fr">Une sélection de certifications qui renforcent le positionnement en management, produit, agilité, qualité et durabilité.</p>
+            <p class="block-lang show" data-lang="en">Certified across product, project, agile delivery, quality and sustainability.</p>
+            <p class="block-lang" data-lang="fr">Certifié en produit, gestion de projet, agilité, qualité et développement durable.</p>
           </div>
         </div>
         <div class="cert-grid">
-          <div class="mini">Project Management Professional (PMP)</div>
+          <div class="mini">Project Management Professional (PMP) — PMI</div>
           <div class="mini">AgilePM Foundation — APMG</div>
-          <div class="mini">Agile Business Consortium Scrum Master</div>
-          <div class="mini">SAFe 5 Product Owner / Product Manager</div>
-          <div class="mini">ISTQB Certified Tester Foundation Level</div>
+          <div class="mini">Scrum Master — Agile Business Consortium</div>
+          <div class="mini">SAFe® 5 Product Owner / Product Manager — Scaled Agile</div>
+          <div class="mini">Certified Tester Foundation Level — ISTQB</div>
           <div class="mini">Green Project Management — GPM-b</div>
         </div>
       </div>
